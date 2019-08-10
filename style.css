@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    width: 0;
+    height: 10vh;
+}
+
+.logo {
+    height: 3;
+    width: 3;
+}
+
+.account {
+    width: 10vw;
+}
+
+.dropbtn {
+    background-color: gray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 102px;
+    box-shadow: 0px 8px 16px 0px rgba(17, 82, 143, 0.8);
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .dropdown-content a:hover {
+    background-color: grey
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: blue;
+  }
