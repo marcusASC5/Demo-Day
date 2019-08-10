@@ -9,13 +9,13 @@ body, html {
 }
 
 header {
-    width: 0;
-    height: 10vh;
+    width: 100vw;
+    height: 30vh;
 }
 
 .logo {
-    height: 3;
-    width: 3;
+    height: 100px;
+    width: 100px;
 }
 
 .account {
