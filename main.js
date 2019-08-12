@@ -1,25 +1,11 @@
 let data = ["programming", "internship", "tutoring", "delivery", "community work", "local work", "assistant", "babysitting", "web development", "fast food"]
+
 for (let k = 0; k < data.length; k++) {
   let newli = document.createElement('li');
   newli.style.display = "none";
-  newli.innerHTML += '<li><a href="#">' + data[k] + '</a></li>';
+  newli.innerHTML += '<li><a href="">' + data[k] + '</a></li>';
   document.querySelector("#myUL").prepend(newli);
 }
-
-
-// let num = 10;
-//     fetch('https://randomuser.me/api?results=' + num)
-//       .then(function(response) {
-//       return response.json();
-//   })
-//       .then(function(myJson) {
-//           for (let k = 0; k < myJson.results.length; k++) {
-//               let newli = document.createElement('li');
-//               newli.style.display = "none";
-//               newli.innerHTML += '<li><a href="#">' + myJson.results[k].name.first +  " "  + myJson.results[k].name.last + '</a></li>';
-//               document.querySelector("#myUL").prepend(newli);
-//       }
-//   });
 
 
   function myFunction() {
@@ -45,3 +31,24 @@ for (let k = 0; k < data.length; k++) {
           }
       }
   }
+//use the DOM to add this to the HTML and make a JSON with the specific jobs, pay, age range, url, and description
+<div class="jobbox">
+  <p class="jobname">
+    
+  </p>
+  <img src="#" alt="" class="jobphoto">
+  <p class="description">
+    
+  </p>
+  <p class="location">
+    
+  </p>
+  <p class="pay">
+    
+  </p>
+  <p class="age">
+  
+    </p>
+  
+  </div>
+  
