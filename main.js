@@ -1,16 +1,25 @@
-  let num = 10;
-    fetch('https://randomuser.me/api?results=' + num)
-      .then(function(response) {
-      return response.json();
-  })
-      .then(function(myJson) {
-          for (let k = 0; k < myJson.results.length; k++) {
-              let newli = document.createElement('li');
-              newli.style.display = "none";
-              newli.innerHTML += '<li><a href="#">' + myJson.results[k].name.first +  " "  + myJson.results[k].name.last + '</a></li>';
-              document.querySelector("#myUL").prepend(newli);
-      }
-  });
+let data = ["programming", "internship", "tutoring", "delivery", "community work", "local work", "assistant", "babysitting", "web development", "fast food"]
+for (let k = 0; k < data.length; k++) {
+  let newli = document.createElement('li');
+  newli.style.display = "none";
+  newli.innerHTML += '<li><a href="#">' + data[k] + '</a></li>';
+  document.querySelector("#myUL").prepend(newli);
+}
+
+
+// let num = 10;
+//     fetch('https://randomuser.me/api?results=' + num)
+//       .then(function(response) {
+//       return response.json();
+//   })
+//       .then(function(myJson) {
+//           for (let k = 0; k < myJson.results.length; k++) {
+//               let newli = document.createElement('li');
+//               newli.style.display = "none";
+//               newli.innerHTML += '<li><a href="#">' + myJson.results[k].name.first +  " "  + myJson.results[k].name.last + '</a></li>';
+//               document.querySelector("#myUL").prepend(newli);
+//       }
+//   });
 
 
   function myFunction() {
