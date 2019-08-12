@@ -9,9 +9,8 @@ body, html {
 }
 
 header {
-    width: 100vw;
-    height: 20vh;
-  border: 4px solid blue;
+  height: 20vh;
+  border: 4px solid rgb(255, 255, 255);
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
@@ -44,6 +43,8 @@ text-decoration: none;
     flex-wrap: wrap;
   }
 
+  /* dropdown */
+
   .dropdown {
     position: relative;
     display: inline-block;
@@ -53,7 +54,7 @@ text-decoration: none;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 102px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(17, 82, 143, 0.8);
     z-index: 1;
     font-family: 'Poppins', sans-serif;
@@ -81,15 +82,107 @@ text-decoration: none;
     background-color: pink;
   }
 
+  /* dropdown */
+  
 h1 {
-  color: ;
+  color: black;
   font-family: Montserrat, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center:
+  text-align: center;
+}
+
+.title {
+  background-color: rgba(25, 102, 153, 0.75);
+  text-align: center;
 }
 
 .title p {
-  text-align: center;
-  font-family: 
+  font-family: IBM Plex Sans, sans-serif;
 }
+
+.jobs {
+  background: skyblue;
+}
+
+.jobs div {
+  background-color: skyblue;
+  border: 4px solid rgb(0, 225, 255);
+  background: rgb(13, 146, 207);
+  font-family: Nunito, sans-serif;
+  text-align: left;
+  margin: 10px;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* 
+.mcdonalds:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity:1;
+} */
+
+.image{
+  width:200px;
+  height:130px;
+  float: left;
+}
+
+/* 
+.chipotle:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  opacity:1;
+} */
+
+.jobs p {
+  display:flex;
+  flex-wrap: wrap;
+  font-family: IBM Plex Sans, sans-serif;
+  height: 250px;
+  width: 300px;
+}
+
+footer {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+  width: 100vw;
+  background-color: skyblue;
+  border-style: solid none;
+  border-color: white;
+  border-width: 2.5px;
+}
+
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100vh;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
