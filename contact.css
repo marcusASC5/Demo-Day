@@ -19,7 +19,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: skyblue;
+  background-color: #00b7ff;
+}
+
+.Anthony{
+ font-family: 'Poppins', sans-serif;
+  font-size: 30px;
 }
 
 .logo {
@@ -28,7 +33,7 @@ header {
 }
 
 .name {
-    font-family: Dosis, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     color: blue;
 }
@@ -39,7 +44,7 @@ text-decoration: none;
 }
 
 .dropbtn {
-    background-color: skyblue;
+    background-color: #00b7ff;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -75,7 +80,7 @@ text-decoration: none;
   }
 
   .dropdown-content a:hover {
-    background-color: pink;
+    background-color: turquoise;
   }
 
   .dropdown:hover .dropdown-content {
@@ -84,51 +89,45 @@ text-decoration: none;
 
   .dropdown:hover .dropbtn {
     transition: color 300ms ease-in, background-color 300ms ease-in;
-    background-color: pink;
+    background-color: turquoise;
   }
 
 .title {
   text-align: center; 
   height: 25%;
-  background-color: rgba(170, 177, 182, 0.75);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title p {
-  font-family: IBM Plex Sans, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer {
-  font-family: Nunito, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   width: 100vw;
-  background-color: skyblue;
+  background-color: #00b7ff;
   border-style: solid none;
   border-color: rgb(143, 246, 253);
   border-width: 2.5px;
 }
 
 .redirect {
-  font-family: Bitter, sans-serif;
+  font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    border: 2px solid lightblue;
-    border-radius: 7px;
-    background-color: rgba(3, 252, 211);
+    background-color:#f1f1f1;
     font-weight: 300;
-    padding: 8px;
     text-decoration: none;
   display: flex;
   justify-content: center;
 }
 
 .redirect:hover {
-  background-color: rgba(90, 224, 202);
-  border: 2px solid lightblue;
-  border-radius: 7px;
+  background-color: #ebe3e3;
 }
