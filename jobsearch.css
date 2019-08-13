@@ -8,16 +8,16 @@ body, html {
   width: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .jobs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
   
-}
-
-body {
-  overflow: hidden;
 }
 
  header{
@@ -190,3 +190,13 @@ footer {
     background-color: #eee;
   }
 
+
+footer {
+  font-family: Nunito, sans-serif;
+  text-align: center;
+  width: 100vw;
+  background-color: skyblue;
+  border-style: solid none;
+  border-color: rgb(143, 246, 253);
+  border-width: 2.5px;
+}
