@@ -7,15 +7,18 @@
     <title>Jobs365 - Home</title>
     <link href="https://fonts.googleapis.com/css?family=Bitter|Cinzel|IBM+Plex+Sans|Montserrat|Dosis|Red+Hat+Display|Nunito|Poppins&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="opencreator.css">
+    <script src="opencreator.js" defer></script>
 </head>
 <body>
     <header>
         <a href="/index.html">
             <img src="logoA.png" alt="" class="logo">
         </a>
-        
+        <div id="searchbar">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Add Filters..." title="Type in a job">
+        <ul id="myUL"></ul>
+        </div>
         <div class="account">
         <div class="dropdown">
                 <button class="dropbtn">
@@ -31,6 +34,8 @@
     </header>
   
   <footer>
+  <a href="/contact.html" class="redirect">Feel Free to Contact Us!</a>
   Copyright © 2019 Demetris Kyriacou, Anthony Lall-Lewis, and Marcus Sutton | All Rights Reserved
 </footer>
   </body>
+</html>
