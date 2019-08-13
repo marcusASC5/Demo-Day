@@ -51,4 +51,3 @@ for (let k = 0; k < data.length; k++) {
     </p>
   
   </div>
-  

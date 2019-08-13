@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body, html {
@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 }
 
- header{
+header {
   height: 20vh;
   border: 4px solid rgb(143, 246, 253);
   border-radius: 10px;
@@ -23,51 +23,15 @@ body {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-#myInput {
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100vh;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  }
-  
-  #myUL {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-#searchbar {
-  position: relative;
-  display: inline-block;
+.name {
+    font-family: Dosis, sans-serif;
+    font-size: 30px;
+    color: blue;
 }
-
-  #myUL li a {
-    border: 1px solid #ddd;
-    margin-top: -1px; 
-    background-color: #f6f6f6;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block
-  }
-  
-  #myUL li a:hover:not(.header) {
-    background-color: #eee;
-  }
 
 .externals {
   color: blue;
@@ -85,8 +49,6 @@ text-decoration: none;
     display: flex;
     flex-wrap: wrap;
   }
-
-  /* dropdown */
 
   .dropdown {
     position: relative;
@@ -124,6 +86,23 @@ text-decoration: none;
     transition: color 300ms ease-in, background-color 300ms ease-in;
     background-color: pink;
   }
+
+.title {
+  text-align: center; 
+  height: 25%;
+  background-color: rgba(170, 177, 182, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+}
+
+.title p {
+  font-family: IBM Plex Sans, sans-serif;
+}
 
 footer {
   font-family: Nunito, sans-serif;

@@ -190,3 +190,22 @@ footer {
     background-color: #eee;
   }
 
+.redirect {
+  font-family: Bitter, sans-serif;
+    font-size: 13px;
+    border: 2px solid lightblue;
+    border-radius: 7px;
+    background-color: rgba(3, 252, 211);
+    font-weight: 300;
+    padding: 8px;
+    text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.redirect:hover {
+  background-color: rgba(90, 224, 202);
+  border: 2px solid lightblue;
+  border-radius: 7px;
+}
+
