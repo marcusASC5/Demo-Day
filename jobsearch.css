@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: skyblue;
+  background-color: #00b7ff;
 }
 
 .logo {
@@ -44,7 +44,7 @@ text-decoration: none;
 }
 
 .dropbtn {
-    background-color: skyblue;
+    background-color: #00b7ff;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -82,7 +82,7 @@ text-decoration: none;
   }
 
   .dropdown-content a:hover {
-    background-color: pink;
+    background-color: turquoise;
   }
 
   .dropdown:hover .dropdown-content {
@@ -91,7 +91,7 @@ text-decoration: none;
 
   .dropdown:hover .dropbtn {
     transition: color 300ms ease-in, background-color 300ms ease-in;
-    background-color: pink;
+    background-color: turquoise;
   }
 
   /* dropdown */
@@ -195,27 +195,22 @@ footer {
   font-family: Nunito, sans-serif;
   text-align: center;
   width: 100vw;
-  background-color: skyblue;
+  background-color: #00b7ff;
   border-style: solid none;
   border-color: rgb(143, 246, 253);
   border-width: 2.5px;
 }
 
 .redirect {
-  font-family: Bitter, sans-serif;
+  font-family: 'Poppins', sans-serif;
     font-size: 13px;
-    border: 2px solid lightblue;
-    border-radius: 7px;
-    background-color: rgba(3, 252, 211);
+    background-color:#f1f1f1;
     font-weight: 300;
-    padding: 8px;
     text-decoration: none;
   display: flex;
   justify-content: center;
 }
 
 .redirect:hover {
-  background-color: rgba(90, 224, 202);
-  border: 2px solid lightblue;
-  border-radius: 7px;
+  background-color: #ebe3e3;
 }
