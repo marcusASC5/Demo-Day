@@ -96,6 +96,10 @@ text-decoration: none;
   justify-content: space-around;
 }
 
+/* .gradient {
+  background-image: linear-gradient(to bottom right, skyblue, gray);
+} */
+
 h1 {
   font-family: Montserrat, sans-serif;
 }
@@ -108,7 +112,7 @@ h1 {
   padding: 10px;
   font-family: Nunito, sans-serif;
   font-size: 20px;
-  background-color: rgb(101, 146, 230);
+  background-color: rgba(101, 146, 230);
 }
 
 h2 {
