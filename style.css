@@ -1,19 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body, html {
   height: 100%;
   width: 100%;
-}
-
-.jobs {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: row;
-  
 }
 
 body {
@@ -29,16 +21,27 @@ body {
 }
 
 .logo {
-    height: 100px;
-    width: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-.account {
+.name {
+  font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+
 }
 
 .externals {
   color: blue;
 text-decoration: none;
+}
+#localjob{
+  font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+   
 }
 
 .dropbtn {
@@ -90,82 +93,47 @@ text-decoration: none;
     background-color: turquoise;
   }
 
-  /* dropdown */
-  
-h1 {
-  color: black;
-  font-family: Montserrat, sans-serif;
-  text-align: center;
+.title {
+  text-align: center; 
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.title {
-background:white;
-  text-align: center;
+/* .gradient {
+  background-image: linear-gradient(to bottom right, skyblue, gray);
+} */
+
+h1 {
+  font-family: 'Poppins', sans-serif;
 }
 
 .title p {
-  font-family: IBM Plex Sans, sans-serif;
-  font-size:70px;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
-.image{
-  width:300px;
-  height:180px;
-  float: left;
+.synopsis {
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    color: #00b7ff;;
 }
 
 footer {
-  font-family: Nunito, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   width: 100vw;
-  background-color:#00b7ff;
+  background-color: #00b7ff;
   border-style: solid none;
-  border-color: black;
+  border-color: #00b7ff;
   border-width: 2.5px;
 }
-
-  #myInput {
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100vh;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-  }
-  
-  #myUL {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-#searchbar {
-  position: relative;
-  display: inline-block;
-}
-
-  #myUL li a {
-    border: 1px solid #ddd;
-    margin-top: -1px; 
-    background-color: #f6f6f6;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block
-  }
-  
-  #myUL li a:hover:not(.header) {
-    background-color: #eee;
-  }
 
 .redirect {
   font-family: 'Poppins', sans-serif;
@@ -193,28 +161,25 @@ footer {
   font-size: 30px;
   font-family:'Poppins', sans-serif;
   text-align: center;
-  padding-left:50px;
-  padding-right:50px;
 }
 
-.jobphoto {
-  width: 150px;
-  height: 120px;
-  padding-left:70px;
-}
 .jobbox {
   margin-top: 10px;
   width: 307px;
-  height:440px;
+  height:260px;
   background-color:#f0f0f0;
   box-shadow:0px .5px .5px .5px rgba(0, 0, 0, 0.753);
   padding-top:2px;
 } 
 
+.jobbox p {
+  margin: 5px;
+}
+
 .jobbox:hover {
   margin-top: 10px;
   width: 310px;
-  height:443px;
+  height:263px;
   background-color:#f0f0f0;
   box-shadow:0px .5px .5px .5px rgba(0, 132, 255, 0.753);
   padding-top:2px;

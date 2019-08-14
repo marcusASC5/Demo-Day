@@ -10,6 +10,7 @@ body, html {
 
 body {
   overflow-x: hidden;
+  background-color: #f0f0f0;
 }
 
  header{
@@ -28,7 +29,12 @@ body {
 .name {
   font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+.name a {
+  text-decoration: none;
+  color: black;
 }
 
 .externals {
@@ -91,30 +97,13 @@ text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-family: Poppins, sans-serif;
+  background-color: white;
 }
 
-/* .gradient {
-  background-image: linear-gradient(to bottom right, skyblue, gray);
-} */
-
-h1 {
-  font-family: 'Poppins', sans-serif;
-}
-
-.title p {
-  font-family: 'Poppins', sans-serif;
-}
-
-.synopsis {
-  padding: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-}
-
-h2 {
-  font-family: 'Poppins', sans-serif;
-    font-size: 26px;
-    color: #00b7ff;;
+.title a {
+  text-decoration: none;
+  color: blue;
 }
 
 footer {
@@ -139,4 +128,20 @@ footer {
 
 .redirect:hover {
   background-color: #ebe3e3;
+}
+
+@media screen and (max-width: 600px){
+  
+  header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00b7ff;
+  }
+  .name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
 }
